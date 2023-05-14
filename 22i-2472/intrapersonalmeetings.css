@@ -1,0 +1,524 @@
+/* The css of the home page */
+body {
+    /* The background color of the page */
+    background-color: white;
+  }
+  
+  /* the Main heading of the page  */
+  .mainheading {
+    /* font style */
+    font-family: Lucida Bright, Georgia, serif;
+  }
+  
+  nav {
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;   
+  
+  }
+  
+  #mainheading {
+  
+    text-align: center;
+    color: white;
+  }
+  
+  /*Details of the first button of the page services */
+  /* Dropdown Button */
+  #services {
+    height: 40px;
+    width: auto;
+    margin-left: 25px;
+    border: 2px #ccc0c0e5;
+    border-radius: 5px;
+    background-color: purple;
+  
+  }
+  
+  #services a {
+    font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
+    text-decoration: none;
+    text-align: center;
+    color: rgba(214, 213, 213, 0.89);
+    font-size: 25px;
+    font-weight: 600;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .servicesdropdown {
+    position: relative;
+    display: inline-block;
+  
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  #servicesdropdowncontent {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    background-color: #c4b4df;
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  #servicesdropdowncontent a {
+    color: black;
+    padding: 8px 12px;
+    text-decoration: none;
+    font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
+    color: #5D294F;
+    display: block;
+    font-size: 25px;
+  }
+  
+  /* Change color of dropdown links on hover */
+  #servicesdropdowncontent a:hover {
+    background-color: rgba(214, 213, 213, 0.89);
+    color: rgb(99, 95, 95);
+  }
+  
+  /* Show the dropdown menu on hover */
+  .servicesdropdown:hover #servicesdropdowncontent {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .servicesdropdown:hover #services {
+    background-color: #7856b8;
+  }
+  
+  /* The second button named as the history of the page */
+  #History {
+    height: 40px;
+    width: auto;
+    margin-left: 25px;
+    border: 2px rgb(99, 95, 95);
+    border-radius: 5px;
+    background-color: purple;
+  }
+  
+  #History a {
+    font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
+    color: rgba(214, 213, 213, 0.89);
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  #History:hover {
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.89);
+    color: rgb(32, 27, 27);
+  
+  }
+  
+  /* The details of the promotion button  */
+  #promotions a {
+    font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
+    color: rgba(214, 213, 213, 0.89);
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* promotions button information */
+  #promotions{
+    height: 40px;
+    width: auto;
+    margin-left: 25px;
+    border: 2px rgb(99, 95, 95);
+    border-radius: 5px;
+    background-color:purple;
+  }
+  
+  #promotions:hover {
+    font-weight: bold;
+    background-color: #7856b8;
+  }
+  
+  /*  the details of the venue list button */
+  #venuelist {
+    height: 40px;
+    width: 150px;
+    margin-left: 45px;
+    border: 2px rgb(99, 95, 95);
+    border-radius: 5px;
+    background-color: purple;
+  }
+  
+  #venuelist a {
+    font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
+    color: rgba(214, 213, 213, 0.89);
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  #venuelist:hover {
+    font-weight: bold;
+    background-color: #7856b8;
+  }
+  
+  /* the css of the registerations button  */
+  #registerations {
+    height: 40px;
+    width: max-content;
+    margin-left: 45px;
+    border: 1px rgb(99, 95, 95);
+    border-radius: 1px;
+    background-color: purple;
+  }
+  
+  #registerations a {
+    font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
+    color: rgba(214, 213, 213, 0.89);
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  }
+  #searchbox
+  {
+    height: 21px;
+    border: 2px solid;
+    border-radius: 5px;
+    margin-left: 20px;
+  width: 200px;
+  
+  }
+  
+  #registerations:hover {
+    font-weight: bold;
+    background-color: #7856b8;
+  }
+  .col-sm-8
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  
+  }
+  .loginabout
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  /* the css of the login button */
+  #login {
+    height: 40px;
+    width: 40px;
+    margin-left: 45px;
+    width: max-content;
+    border: 2px rgb(99, 95, 95);
+    border-radius: 5px;
+    background-color:purple;
+  }
+  
+  #login a {
+    font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
+    color: rgba(214, 213, 213, 0.89);
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  #login a img {
+    width: 40px;
+    align-self: center;
+  }
+  
+  #login:hover a {
+    font-weight: bold;
+    background-color: #7856b8;
+  
+  }
+  
+  /* the css of the About us button  */
+  #aboutus {
+  
+    height: max-content;
+    width: max-content;
+    margin-left: 150px;
+    border: 2px;
+    border-radius: 5px;
+    background-color: purple;
+  
+  }
+  
+  #aboutus a {
+  
+    font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
+    color: rgba(214, 213, 213, 0.89);
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  
+  }
+  
+  #aboutus :hover {
+    font-weight: bold;
+    background-color: #7856b8;
+  }
+  /* The css of the body  */
+  /* The css of heading  */
+  .plannerhead
+  {
+    text-align: center;
+  }
+  
+  .plannerhead p
+  {
+    font-style: oblique;
+    font-family: cursive;
+  }
+  .firstrow
+{
+  float: left;
+  display: flex;
+  margin-left: 40px;
+  margin-top: 50px;
+}
+/* the details for the first person are */
+.firstperson
+{ 
+  font-family: garamond;
+  float: left;
+  background-color: #e6c6d4; 
+  width: 33%;
+  border: 1px solid #e6c6d4;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px #ddacc1;;
+}
+ 
+.firstperson h2
+{
+  font-size: 30px;
+  color: #482e78 ;
+  text-align: center;
+  
+}
+#firstpersonimage
+{ 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+ .firstperson li a 
+ {
+    text-decoration: none;
+ }
+.firstperson li 
+{
+  color:#531eb4;
+  list-style: none;
+  font-size: 18px;
+  padding:8px;
+  text-decoration: none;
+}
+/* the details for the second person are */
+.secondperson
+{ margin-left: 80px;
+  font-family: garamond;
+  float: left;
+  background-color: #e6c6d4; 
+  width: 33%;
+  border: 1px solid #e6c6d4;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px #ddacc1;
+}
+ 
+.secondperson h2
+{
+  font-size: 30px;
+  color: #482e78 ;
+  text-align: center;
+  
+}
+#secondpersonimage
+{ 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 30%;
+
+}
+.secondperson li
+{
+  color:#531eb4;
+  list-style: none;
+  font-size: 18px;
+  padding: 8px;
+}
+/* the third person */
+.thirdperson
+{ margin-left: 80px;
+  font-family: garamond;
+  float: left;
+  background-color: #e6c6d4; 
+  width: 33%;
+  padding-top: 0%;
+  border: 1px solid #e6c6d4;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px #ddacc1;;
+}
+ 
+.thirdperson h2
+{
+  font-size: 30px;
+  color: #482e78 ;
+  text-align: center;
+  
+}
+#thirdpersonimage
+{ 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 30%;
+
+}
+.thirdperson li
+{
+  color:#531eb4;
+  list-style: none;
+  font-size: 18px;
+  padding: 8px;
+}
+/* the second row of the ads */
+.secondrow
+{
+  margin-top: 20px;
+  float: left;
+  display: flex;
+  margin-left: 40px;
+  margin-top: 50px;
+}
+/* the details for the first person are */
+.fourthperson
+{ 
+  font-family: garamond;
+  float: left;
+  background-color: #e6c6d4; 
+  width: 33%;
+  border: 1px solid #e6c6d4;
+  border-radius: 20px;
+  box-shadow:10px 10px 5px #ddacc1;;
+}
+ 
+.fourthperson h2
+{
+  font-size: 30px;
+  color: #482e78 ;
+  text-align: center;
+  
+}
+#fourthpersonimage
+{ 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+.fourthperson li
+{
+  color:#531eb4;
+  list-style: none;
+  font-size: 18px;
+  padding:8px;
+}
+/* the details for the second person are */
+.fifthperson
+{ margin-left: 80px;
+  font-family: garamond;
+  float: left;
+  width: 33%;
+  padding-top: 0%;
+  border: 1px solid #e6c6d4;
+  background-color: #e6c6d4; 
+  border-radius: 20px;
+  box-shadow:10px 10px 5px #ddacc1;;
+}
+ 
+.fifthperson h2
+{
+  font-size: 30px;
+  color: #482e78 ;
+  text-align: center;
+  
+}
+#fifthpersonimage
+{ 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 30%;
+
+}
+.fifthperson li
+{
+  color:#531eb4;
+  list-style: none;
+  font-size: 18px;
+  padding: 8px;
+}
+/* the third person */
+.sixthperson
+{ margin-left: 80px;
+  font-family: garamond;
+  float: left;
+  background-color: #e6c6d4; 
+  width: 33%;
+  padding-top: 0%;
+  border: 1px solid #e6c6d4;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px #ddacc1;
+}
+ 
+.sixthperson h2
+{
+  font-size: 30px;
+  color: #482e78 ;
+  text-align: center;
+  
+}
+#sixthpersonimage
+{ 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 30%;
+
+}
+.sixthperson li
+{
+  color:#531eb4;
+  list-style: none;
+  font-size: 18px;
+  padding: 8px;
+}
+/* the footer of the page */
+.footer
+{
+  background-color: rgb(122, 73, 122);
+  height: 200px;
+  width: 100%;
+  margin-top: 900px;
+}

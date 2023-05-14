@@ -1,0 +1,623 @@
+/* The css of the home page */
+body {
+  /* The background color of the page */
+  background-color: white;
+}
+
+/* the Main heading of the page  */
+.mainheading {
+  /* font style */
+  font-family: Lucida Bright, Georgia, serif;
+}
+
+nav {
+  background-color: purple;
+}
+
+#mainheading {
+
+  text-align: center;
+  color: white;
+}
+
+/*Details of the first button of the page services */
+/* Dropdown Button */
+#services 
+{
+  height: 40px;
+  width: auto;
+  margin-left: 20px;
+  border: 2px #ccc0c0e5;
+  border-radius: 5px;
+  background-color: purple;
+}
+#services a {
+  font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
+  text-decoration: none;
+  text-align: center;
+  color: rgba(214, 213, 213, 0.89);
+  font-size: 25px;
+  font-weight: 600;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.servicesdropdown {
+  position: relative;
+  display: inline-block;
+
+}
+
+/* Dropdown Content (Hidden by Default) */
+#servicesdropdowncontent {
+  display: none;
+  position: absolute;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  background-color: #c4b4df;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+#servicesdropdowncontent a {
+  color: black;
+  padding: 8px 12px;
+  text-decoration: none;
+  font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
+  color: #5D294F;
+  display: block;
+  font-size: 25px;
+}
+
+/* Change color of dropdown links on hover */
+#servicesdropdowncontent a:hover {
+  background-color: rgba(214, 213, 213, 0.89);
+  color: rgb(99, 95, 95);
+}
+
+/* Show the dropdown menu on hover */
+.servicesdropdown:hover #servicesdropdowncontent {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.servicesdropdown:hover #services {
+  background-color: #7856b8;
+}
+
+/* The second button named as the history of the page */
+#History {
+  height: 40px;
+  width: auto;
+  margin-left: 10px;
+  border: 2px rgb(99, 95, 95);
+  border-radius: 5px;
+  background-color: purple;
+}
+
+#History a {
+  font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
+  color: rgba(214, 213, 213, 0.89);
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#History:hover {
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.89);
+  color: rgb(32, 27, 27);
+
+}
+
+/* The details of the promotion button  */
+#promotions a {
+  font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
+  color: rgba(214, 213, 213, 0.89);
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* promotions button information */
+#promotions {
+  height: 40px;
+  width: 150px;
+  margin-left: 20px;
+  border: 2px rgb(99, 95, 95);
+  border-radius: 5px;
+  background-color:purple;
+}
+
+#promotions:hover {
+  font-weight: bold;
+  background-color: #7856b8;
+}
+
+/*  the details of the venue list button */
+#venuelist {
+  height: 40px;
+  width: 150px;
+  margin-left: auto;
+  border: 2px rgb(99, 95, 95);
+  border-radius: 5px;
+  background-color: purple;
+}
+
+#venuelist a {
+  font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
+  color: rgba(214, 213, 213, 0.89);
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#venuelist:hover
+{
+  font-weight: bold;
+  background-color: #7856b8;
+}
+
+#searchbox
+{
+  height: 25px;
+  border: 2px solid;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+/* the css of the registerations button  */
+#registerations 
+{
+  height: 40px;
+  width: auto;
+  margin-left: 25px;
+  border: 1px rgb(99, 95, 95);
+  border-radius: 5px;
+  background-color: purple;
+}
+
+#registerations a 
+{
+  font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
+  color: rgba(214, 213, 213, 0.89);
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#registerations:hover 
+{
+  font-weight: bold;
+  background-color: #7856b8;
+}
+
+
+/* the css of the login button */
+#login {
+  height: 40px;
+  width: 40px;
+  margin-left: 20px;
+  width: max-content;
+  border: 2px rgb(99, 95, 95);
+  border-radius: 5px;
+  background-color:purple;
+}
+
+#login a 
+{
+  font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
+  color: rgba(214, 213, 213, 0.89);
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#login a img 
+{
+  width: 40px;
+  align-self: center;
+}
+
+#login:hover a 
+{
+
+  font-weight: bold;
+  background-color: #7856b8; 
+
+}
+
+/*  The css of the About us button  */
+#aboutus
+{
+
+  height: 40px;
+  width: 150px;
+  margin-left: 25px;
+  border: 2px;
+  border-radius: 5px;
+  background-color: purple;
+
+}
+
+.loginabout
+{
+  float: right;
+  height: 40px;
+  width: 150px;
+  margin-left: 10px;
+  border: 2px;
+  border-radius: 5px;
+  background-color: purple;
+}
+#aboutus a {
+
+  font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
+  color: rgba(214, 213, 213, 0.89);
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+#aboutus :hover {
+  font-weight: bold;
+  background-color: #7856b8;
+}
+
+/* the css of the code after navbar */
+/* css of the code of the first photography div */
+.photography 
+{
+  margin-top: 20px;
+  background-color: rgb(122, 73, 122);
+  /* align-items: center; */
+  /* justify-content: center; */
+  height: 120px;
+}
+/* the line of the photography */
+.photography p 
+{
+  /* font-family: garamond; */
+  font-size: 20px;
+  color: rgba(218, 211, 211, 0.904);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding-left:100px;
+}
+/* the heading  */
+.photography h3
+ {
+  display: block;
+  margin-left: 40%;
+  text-align: center;
+  font-family: Cambria, Georgia, serif;
+  display: inline-block;
+  padding-top: 10px;
+  opacity: 0.9;
+  font-size: 50px;
+  font-style: oblique;
+
+}
+/* the first image */
+#photographyimage1
+ {
+  margin-top: 5px;
+  color: white;
+  width: 33%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.5;
+  float: left;
+  height: 300px;
+
+}
+/* the second image */
+#photographyimage2 
+{
+  margin-top: 5px;
+  color: white;
+  width: 33%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.5;
+  float: left;
+  height: 300px;
+}
+/* the third image */
+#photographyimage3
+ {
+  margin-top: 5px;
+  color: white;
+  width: 33%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.5;
+  float: left;
+  height: 300px;
+
+}
+/* the cattering  service*/
+.cattering 
+{
+  margin-top: 350px;
+  height: 120px;  
+}
+/* to set the backgorund of the cattering text */
+.catt
+{
+  background-color:  rgb(122, 73, 122);
+
+}
+/* the line of the photography */
+.cattering p 
+{
+  /* font-family: garamond; */
+  font-size: 20px;
+  color: rgba(218, 211, 211, 0.904);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding-left:100px;
+}
+/* the heading  */
+.cattering h3 {
+  display: inline-flex; 
+  margin-left: 40%;
+  text-align: center;
+  font-family: Cambria, Georgia, serif;
+  display: inline-block;
+  padding-top: 10px;
+  opacity: 0.9;
+  font-size: 50px;
+  font-style:sound
+
+}
+/* the first image */
+#catteringimage1 {
+  margin-top: 5px;
+  color: white;
+  width: 33%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.5;
+  float: left;
+  height: 300px;
+
+}
+/* the second image */
+#catteringimage2 {
+  margin-top: 5px;
+  color: white;
+  width: 33%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.5;
+  float: left;
+  height: 300px;
+}
+/* the third image */
+#catteringimage3 {
+  margin-top: 5px;
+  color: white;
+  width: 33%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.5;
+  float: left;
+  height: 300px;
+
+}
+/* The sound system */
+.soundsystem{
+  margin-top: 350px;
+  height: 120px;
+  
+}
+/* to set the backgorund of the cattering text */
+.sound
+{
+  background-color:  rgb(122, 73, 122);
+
+}
+/* the line of the photography */
+.sound p {
+  /* font-family: garamond; */
+  font-size: 20px;
+  color: rgba(218, 211, 211, 0.904);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding-left:100px;
+}
+/* the heading  */
+.sound h3 {
+  display: inline-flex; 
+  margin-left: 40%;
+  text-align: center;
+  font-family: Cambria, Georgia, serif;
+  display: inline-block;
+  padding-top: 10px;
+  opacity: 0.9;
+  font-size: 50px;
+  font-style: oblique;
+
+}
+/* the first image */
+#soundimage1 {
+  margin-top: 5px;
+  color: white;
+  width: 33%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.5;
+  float: left;
+  height: 300px;
+
+}
+/* the second image */
+#soundimage2 {
+  margin-top: 5px;
+  color: white;
+  width: 33%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.5;
+  float: left;
+  height: 300px;
+}
+/* the third image */
+#soundimage3 {
+  margin-top: 5px;
+  color: white;
+  width: 33%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.5;
+  float: left;
+  height: 300px;
+
+}
+/* css of the halls section */
+.marriagesystem{
+  margin-top: 350px;
+  height: 120px;
+  
+}
+/* to set the backgorund of the cattering text */
+.marriage
+{
+  background-color:  rgb(122, 73, 122);
+
+}
+/* the line of the marriage */
+.marriage p {
+  /* font-family: garamond; */
+  font-size: 20px;
+  color: rgba(218, 211, 211, 0.904);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding-left:100px;
+}
+/* the heading  */
+.marriage h3 {
+  display: inline-flex; 
+  margin-left: 40%;
+  text-align: center;
+  font-family: Cambria, Georgia, serif;
+  display: inline-block;
+  padding-top: 10px;
+  opacity: 0.9;
+  font-size: 50px;
+  font-style: oblique;
+}
+/* the first image */
+#marriageimage1 
+{
+  margin-top: 5px;
+  color: white;
+  width: 33%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.5;
+  float: left;
+  height: 300px;
+}
+/* the second image */
+#marriageimage2 {
+  margin-top: 5px;
+  color: white;
+  width: 33%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.5;
+  float: left;
+  height: 300px;
+}
+/* the third image */
+#marriageimage3 {
+  margin-top: 5px;
+  color: white;
+  width: 33%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.5;
+  float: left;
+  height: 300px;
+
+}
+/* for the footer */
+.footer
+{
+  background-color: rgb(122, 73, 122);
+  height: 200px;
+  width: 100%;
+  margin-top: 20px;
+}
+.footer
+{
+
+   margin-top: 350px;
+   background-color: rgb(122, 73, 122);
+
+}
+.footer ul a
+{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-left: 20px;
+}
+.footer li {
+  text-decoration: none;
+  list-style:none;  
+
+}
+.footerCompany
+{ margin-top: 10px; 
+width:30%;
+  float: left;
+}
+.footerservices1
+{
+  margin-top: 40px;
+ width:30%;
+  float: right;
+}
+.footerservices1 ul
+{
+  text-decoration: none;
+  list-style: none;
+}
+.footerservices2
+{
+  margin-top: 10px;
+ width:30%;
+  float: right;}
+.footerservices2 ul
+{
+  text-decoration: none;
+  list-style: none;
+}
+.footerservices1 a
+{
+  text-decoration: none;
+  padding: 5px 5px 5px 5px;
+  color:white
+}
+.footerservices2 a
+{
+  color:white;
+text-decoration: none;
+}
